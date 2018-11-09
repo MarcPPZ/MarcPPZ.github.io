@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <nav class="bar">
+
+        <a href="index.html">    
+            <img id="logo" src="Logo/TulaCollege.png" alt="Logo"> 
+        </a>
+        <a class="button" href="index.html">Home</a>
+        <a class="button" href="onderwijs.html">Onderwijs</a>
+        <a class="button" href="begeleiding.html">Begeleiding</a>   
+        <a class="button" href="aanmelden.html">Aanmelden</a>
+        <a class="button" href="agenda.html">Agenda</a>
+        <a class="button active" href="contact.html">Contact</a>
+
+        <input class="search" type="text" placeholder=" Zoeken..."> 
+        
+    </nav>
+
+    <div class="banner">
+
+        <img class="banner" src="img/background.jpg"> 
+
+    </div>
+
+    <div class="quicknav">
+        
+        <span class="info">Home > Contact</span>
+        <img id="ikga6" src="Logo/ikga.png">
+        <span class="info">Snel naar</span> 
+        
+        <a class="button2" href="#onderwijs">Kiezen voor Tula</a>
+        <a class="button2" href="#onderwijs">Blended learning</a>
+        <a class="button2" href="#onderwijs">Spaans - Europese standaard</a>
+        
+    </div>
+        
+        <style>
+           
+             input[type=text], select, textarea {
+                width: 100%;
+                padding: 12px;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                box-sizing: border-box;
+                margin-top: 6px;
+                margin-bottom: 16px;
+                resize: vertical;
+            }
+            
+            input[type=submit] {
+                background-color: #4CAF50;
+                color: white;
+                padding: 12px 20px;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+                box-sizing: border-box;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            
+            input[type=submit]:hover {
+                background-color: #45a049;
+                box-sizing: border-box;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            
+            .container {
+                border-radius: 5px;
+                background-color: #f2f2f2;
+                box-sizing: border-box;
+                font-family: Arial, Helvetica, sans-serif;
+                padding: 20px;
+            }
+            </style>
+
+<div class="container">
+    <h3>Contact</h3>
+    <form>
+      <label for="fname">Voornaam</label>
+      <input type="text" id="fname" name="firstname" placeholder="Jouw voornaam...">
+  
+      <label for="lname">Achternaam</label>
+      <input type="text" id="lname" name="lastname" placeholder="Jouw achternaam...">
+  
+      <label for="country">Provincie</label>
+      <select id="country" name="country">
+        <option value="australia">Drenthe</option>
+        <option value="canada">Flevoland</option>
+        <option value="usa">Friesland</option>
+        <option value="australia">Gelderland</option>
+        <option value="canada">Groningen</option>
+        <option value="usa">Limburg</option>
+        <option value="australia">Noord-Brabant</option>
+        <option value="canada">Noord-Holland</option>
+        <option value="usa">Overijssel</option>
+        <option value="australia">Utrecht</option>
+        <option value="canada">Zeeland</option>
+        <option value="usa">Zuid-Holland</option>
+      </select>
+  
+      <label for="subject">Onderwerp</label>
+      <textarea id="subject" name="subject" placeholder="Schrijf iets..." style="height:200px"></textarea>
+  
+      <input type="submit" value="Verzend" onclick="alert('Verzonden')">
+    </form>
+  </div>
+
+</body>
+</html>

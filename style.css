@@ -1,0 +1,306 @@
+body,
+html {
+  margin: 0;
+  background-color: white;
+  overflow-x: hidden;
+}
+
+.bar {
+  /* Navigatie balk */
+  background-color: white;
+  width: 100%;
+  height: 100px;
+}
+
+#logo {
+  /*Logo */
+  margin-left: 50px;
+  margin-right: 80px;
+  padding-top: 5px;
+  width: 300px;
+  height: 90px;
+  vertical-align: middle;
+}
+
+.button {
+  /* Navigatie knoppen */
+  text-decoration: none;
+  color: rgb(100, 100, 100);
+  font-size: 40px;
+  background-color: inherit;
+  margin-right: 40px;
+  padding-bottom: 10px;
+  vertical-align: middle;
+}
+
+.button:hover {
+  /* Hover */
+  color: rgb(0, 168, 243);
+}
+
+.search {
+  /* Zoekbalk */
+  width: 200px !important;
+  height: 30px !important;
+  border: none !important;
+  font-size: 25px !important;
+  position: absolute !important;
+  margin-top: 32px !important;
+  text-align: left !important;
+  resize: none !important;
+  border-radius: 0px !important;
+  padding: 0px !important;
+  color: rgb(100, 100, 100);
+  background-color: rgb(233, 233, 233);
+  border: 1px;
+  border-style: solid;
+  border-color: rgb(200, 200, 200);
+}
+
+.active {
+  /* Actieve pagina */
+  color: rgb(0, 168, 243);
+}
+
+.banner {
+  /* Banner */
+  width: 100%;
+  height: 400px;
+}
+
+.quicknav {
+  /* Banner navigatie */
+  background-color: rgba(0, 0, 0, 0.8);
+  height: 120px;
+}
+
+#ikga {
+  /* IkgaLogo */
+  margin-left: 400px;
+  padding-top: 10px;
+  vertical-align: middle;
+}
+
+#ikga2 {
+  margin-left: 174px;
+  padding-top: 10px;
+  vertical-align: middle;
+}
+
+#ikga3 {
+  margin-left: 158px;
+  padding-top: 10px;
+  vertical-align: middle;
+}
+
+#ikga4 {
+  margin-left: 163px;
+  padding-top: 10px;
+  vertical-align: middle;
+}
+
+#ikga5 {
+  margin-left: 201px;
+  padding-top: 10px;
+  vertical-align: middle;
+}
+
+
+#ikga6 {
+  margin-left: 201px;
+  padding-top: 10px;
+  vertical-align: middle;
+}
+
+.info {
+  /* Tussentext */
+  color: white;
+  font-size: 25px;
+  margin-left: 30px;
+}
+
+.button2 {
+  /* Banner Navigatie knoppen */
+  text-decoration: none;
+  color: white;
+  background-color: rgba(0, 168, 243, 0.4);
+  font-size: 30px;
+  padding: 5px 10px 5px 10px;
+  margin-left: 10px;
+  border: 1px;
+  border-style: solid;
+  border-color: black;
+}
+
+.button2:hover {
+  /* Banner Navigatie knoppen hover */
+  background-color: rgba(0, 168, 243, 0.7);
+}
+
+.person {
+  width: 400px;
+  height: 300px;
+  border: 1px;
+  border-style: solid;
+}
+
+#fixed {
+  margin-left: 200px;
+}
+
+.column {
+  float: left;
+  width: 400px;
+  padding-top: 100px;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+  background-color: #f2f2f2;
+}
+
+.text {
+  font-size: 20px;
+}
+
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 33.33%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+.tabcontent {
+  color: black;
+  display: none;
+  height: 650px;
+}
+
+#Bestaansrecht {
+  background-color: #f2f2f2;
+}
+
+#Misie {
+  background-color: #f2f2f2;
+}
+
+#Modules {
+  background-color: #f2f2f2;
+}
+
+#Dys {
+  background-color: #f2f2f2;
+}
+
+#Gedrag {
+  background-color: #f2f2f2;
+}
+
+#Hulp {
+  background-color: #f2f2f2;
+}
+
+.inf {
+  float: left;
+  width: 40%;
+  margin-left: 80px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  margin-top: 60px;
+  list-style: none;
+  background-color: white;
+  border-style: solid;
+  border-width: 1px;
+  text-align: left;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.inf2 {
+  float: left;
+  width: 25%;
+  font-size: 40px;
+  margin-left: 80px;
+  padding-left: 30px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  margin-top: 60px;
+  list-style: none;
+  background-color: white;
+  border-style: solid;
+  border-width: 1px;
+  text-align: left;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Style buttons */
+.btn {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: RoyalBlue;
+}
+
+.aanmelden {
+  background-color: #f2f2f2;
+  height: 300px;
+  margin-top: 0px;
+  padding-top: 30px;
+}
+
+.mjdna {
+  font-size: 80px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  background-color: #f2f2f2;
+  padding-top: 30px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.kodlh {
+  font-size: 30px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 20px;
+  background-color: #f2f2f2;
+  padding-bottom: 20px;
+}
+
+.agenda {
+  background-color: #f2f2f2;
+  padding-bottom: 50px;
+}
+
+.agenda img {
+  margin-top: 50px;
+  margin-left: 100px;
+  border-style: dotted;
+  border-width: 1px;
+  border-color: black;
+}
